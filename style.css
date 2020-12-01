@@ -521,6 +521,7 @@
          left: 50%;
          transform: translate(-50%, -50%);
          position: absolute;
+         user-select: none;
      }
 
      .text-center h6 {
@@ -532,6 +533,7 @@
          background: linear-gradient(rgba(21, 21, 156, 0.603), rgba(0, 0, 255, 0.103));
          -webkit-background-clip: text;
          color: transparent;
+         user-select: none;
      }
 
      .social {
@@ -553,6 +555,7 @@
      .text-center,
      .text-center h6 {
          display: none;
+         user-select: none;
      }
 
      header {
